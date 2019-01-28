@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 1d96485995b531749a4340f4aa6547bd
+timeCreated: 1454333927
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: locator14
+    100002: //RootNode
+    100004: polySurface2
+    100006: pSphere25
+    100008: pSphere26
+    100010: seats
+    100012: seats 1
+    100014: seats1
+    100016: seats10
+    100018: seats11
+    100020: seats2
+    100022: seats3
+    100024: seats4
+    100026: seats5
+    100028: seats6
+    100030: seats7
+    100032: seats8
+    100034: seats9
+    100036: stand
+    100038: wheel
+    400000: locator14
+    400002: //RootNode
+    400004: polySurface2
+    400006: pSphere25
+    400008: pSphere26
+    400010: seats
+    400012: seats 1
+    400014: seats1
+    400016: seats10
+    400018: seats11
+    400020: seats2
+    400022: seats3
+    400024: seats4
+    400026: seats5
+    400028: seats6
+    400030: seats7
+    400032: seats8
+    400034: seats9
+    400036: stand
+    400038: wheel
+    2300000: polySurface2
+    2300002: pSphere25
+    2300004: pSphere26
+    2300006: seats 1
+    2300008: seats1
+    2300010: seats10
+    2300012: seats11
+    2300014: seats2
+    2300016: seats3
+    2300018: seats4
+    2300020: seats5
+    2300022: seats6
+    2300024: seats7
+    2300026: seats8
+    2300028: seats9
+    2300030: stand
+    3300000: polySurface2
+    3300002: pSphere25
+    3300004: pSphere26
+    3300006: seats 1
+    3300008: seats1
+    3300010: seats10
+    3300012: seats11
+    3300014: seats2
+    3300016: seats3
+    3300018: seats4
+    3300020: seats5
+    3300022: seats6
+    3300024: seats7
+    3300026: seats8
+    3300028: seats9
+    3300030: stand
+    4300000: stand
+    4300002: seats
+    4300004: seats1
+    4300006: seats2
+    4300008: seats3
+    4300010: seats4
+    4300012: seats6
+    4300014: seats5
+    4300016: seats7
+    4300018: seats8
+    4300020: seats9
+    4300022: seats10
+    4300024: seats11
+    4300026: polySurface2
+    4300028: pSphere25
+    4300030: pSphere26
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 1250
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: locator14
+        weight: 1
+      - path: locator14/wheel
+        weight: 1
+      - path: locator14/wheel/polySurface2
+        weight: 1
+      - path: locator14/wheel/polySurface2/pSphere25
+        weight: 1
+      - path: locator14/wheel/polySurface2/pSphere26
+        weight: 1
+      - path: seats
+        weight: 1
+      - path: seats/seats 1
+        weight: 1
+      - path: seats/seats1
+        weight: 1
+      - path: seats/seats2
+        weight: 1
+      - path: seats/seats3
+        weight: 1
+      - path: seats/seats4
+        weight: 1
+      - path: seats/seats5
+        weight: 1
+      - path: seats/seats6
+        weight: 1
+      - path: seats/seats7
+        weight: 1
+      - path: seats/seats8
+        weight: 1
+      - path: seats/seats9
+        weight: 1
+      - path: seats/seats10
+        weight: 1
+      - path: seats/seats11
+        weight: 1
+      - path: stand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

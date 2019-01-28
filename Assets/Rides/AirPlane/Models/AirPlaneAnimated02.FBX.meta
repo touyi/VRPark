@@ -1,0 +1,334 @@
+fileFormatVersion: 2
+guid: baaa334005bba134282d37d8f5158e68
+timeCreated: 1454341812
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: light
+    100004: mentalrayIbl1
+    100006: model_01:group2
+    100008: model_01:polySurface007
+    100010: model_01:polySurface6
+    100012: park
+    100014: plane:Air_craft01
+    100016: plane:base_plane
+    100018: plane:Cylinder
+    100020: plane:Cylinder001
+    100022: plane:Cylinder_006
+    100024: plane:Cylinder_5
+    100026: plane:Environment
+    100028: plane:group3
+    100030: plane:group6
+    100032: plane:Handy01
+    100034: plane:Handy02
+    100036: plane:locator1
+    100038: plane:locator2
+    100040: plane:locator3
+    100042: plane:locator4
+    100044: plane:locator5
+    100046: plane:pCube2
+    100048: plane:pCylinder057
+    100050: plane:pCylinder42
+    100052: plane:pCylinder55
+    100054: plane:plane:polySurface138
+    100056: plane:plane:polySurface139
+    100058: plane:polySurface130
+    100060: plane:polySurface131
+    100062: plane:polySurface133
+    100064: plane:polySurface136
+    100066: plane:polySurface138
+    100068: plane:zealous_01
+    100070: polySurface119
+    100072: polySurface160
+    100074: polySurface4
+    100076: polySurface52
+    400000: //RootNode
+    400002: light
+    400004: mentalrayIbl1
+    400006: model_01:group2
+    400008: model_01:polySurface007
+    400010: model_01:polySurface6
+    400012: park
+    400014: plane:Air_craft01
+    400016: plane:base_plane
+    400018: plane:Cylinder
+    400020: plane:Cylinder001
+    400022: plane:Cylinder_006
+    400024: plane:Cylinder_5
+    400026: plane:Environment
+    400028: plane:group3
+    400030: plane:group6
+    400032: plane:Handy01
+    400034: plane:Handy02
+    400036: plane:locator1
+    400038: plane:locator2
+    400040: plane:locator3
+    400042: plane:locator4
+    400044: plane:locator5
+    400046: plane:pCube2
+    400048: plane:pCylinder057
+    400050: plane:pCylinder42
+    400052: plane:pCylinder55
+    400054: plane:plane:polySurface138
+    400056: plane:plane:polySurface139
+    400058: plane:polySurface130
+    400060: plane:polySurface131
+    400062: plane:polySurface133
+    400064: plane:polySurface136
+    400066: plane:polySurface138
+    400068: plane:zealous_01
+    400070: polySurface119
+    400072: polySurface160
+    400074: polySurface4
+    400076: polySurface52
+    2300000: model_01:polySurface007
+    2300002: model_01:polySurface6
+    2300004: plane:Cylinder
+    2300006: plane:Cylinder001
+    2300008: plane:Cylinder_006
+    2300010: plane:Cylinder_5
+    2300012: plane:pCylinder057
+    2300014: plane:pCylinder42
+    2300016: plane:pCylinder55
+    2300018: plane:plane:polySurface138
+    2300020: plane:plane:polySurface139
+    2300022: plane:polySurface130
+    2300024: plane:polySurface131
+    2300026: plane:polySurface133
+    2300028: plane:polySurface136
+    2300030: plane:polySurface138
+    2300032: polySurface119
+    2300034: polySurface160
+    2300036: polySurface4
+    2300038: polySurface52
+    3300000: model_01:polySurface007
+    3300002: model_01:polySurface6
+    3300004: plane:Cylinder
+    3300006: plane:Cylinder001
+    3300008: plane:Cylinder_006
+    3300010: plane:Cylinder_5
+    3300012: plane:pCylinder057
+    3300014: plane:pCylinder42
+    3300016: plane:pCylinder55
+    3300018: plane:plane:polySurface138
+    3300020: plane:plane:polySurface139
+    3300022: plane:polySurface130
+    3300024: plane:polySurface131
+    3300026: plane:polySurface133
+    3300028: plane:polySurface136
+    3300030: plane:polySurface138
+    3300032: polySurface119
+    3300034: polySurface160
+    3300036: polySurface4
+    3300038: polySurface52
+    4300000: plane:polySurface133
+    4300002: polySurface119
+    4300004: plane:polySurface131
+    4300006: plane:polySurface130
+    4300008: polySurface4
+    4300010: polySurface52
+    4300012: plane:pCylinder55
+    4300014: plane:polySurface136
+    4300016: plane:pCylinder42
+    4300018: model_01:polySurface6
+    4300020: plane:Cylinder_5
+    4300022: plane:Cylinder
+    4300024: plane:plane:polySurface138
+    4300026: polySurface160
+    4300028: plane:polySurface138
+    4300030: model_01:polySurface007
+    4300032: plane:Cylinder001
+    4300034: plane:plane:polySurface139
+    4300036: plane:Cylinder_006
+    4300038: plane:pCylinder057
+    6400000: model_01:polySurface007
+    6400002: model_01:polySurface6
+    6400004: plane:Cylinder
+    6400006: plane:Cylinder001
+    6400008: plane:Cylinder_006
+    6400010: plane:Cylinder_5
+    6400012: plane:pCylinder057
+    6400014: plane:pCylinder42
+    6400016: plane:pCylinder55
+    6400018: plane:plane:polySurface138
+    6400020: plane:plane:polySurface139
+    6400022: plane:polySurface130
+    6400024: plane:polySurface131
+    6400026: plane:polySurface133
+    6400028: plane:polySurface136
+    6400030: plane:polySurface138
+    6400032: polySurface119
+    6400034: polySurface160
+    6400036: polySurface4
+    6400038: polySurface52
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 6267.00049
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: mentalrayIbl1
+        weight: 1
+      - path: model_01:polySurface007
+        weight: 1
+      - path: plane:Cylinder001
+        weight: 1
+      - path: plane:Cylinder_006
+        weight: 1
+      - path: plane:Environment
+        weight: 1
+      - path: plane:Environment/light
+        weight: 1
+      - path: plane:Environment/park
+        weight: 1
+      - path: plane:Environment/park/model_01:group2
+        weight: 1
+      - path: plane:Environment/park/polySurface4
+        weight: 1
+      - path: plane:Environment/plane:pCube2
+        weight: 1
+      - path: plane:Environment/plane:polySurface130
+        weight: 1
+      - path: plane:Environment/plane:polySurface131
+        weight: 1
+      - path: plane:Environment/plane:polySurface133
+        weight: 1
+      - path: plane:Environment/plane:zealous_01
+        weight: 1
+      - path: plane:Environment/polySurface52
+        weight: 1
+      - path: plane:Environment/polySurface119
+        weight: 1
+      - path: plane:locator1
+        weight: 1
+      - path: plane:locator1/plane:Handy01
+        weight: 1
+      - path: plane:locator1/plane:Handy01/plane:pCylinder42
+        weight: 1
+      - path: plane:locator1/plane:Handy01/plane:pCylinder55
+        weight: 1
+      - path: plane:locator1/plane:Handy01/plane:polySurface136
+        weight: 1
+      - path: plane:locator1/plane:locator2
+        weight: 1
+      - path: plane:locator1/plane:locator2/plane:base_plane
+        weight: 1
+      - path: plane:locator1/plane:locator2/plane:base_plane/model_01:polySurface6
+        weight: 1
+      - path: plane:locator1/plane:locator2/plane:locator3
+        weight: 1
+      - path: plane:locator1/plane:locator2/plane:locator3/plane:Air_craft01
+        weight: 1
+      - path: plane:locator1/plane:locator2/plane:locator3/plane:Air_craft01/plane:Cylinder_5
+        weight: 1
+      - path: plane:locator1/plane:locator2/plane:locator3/plane:Air_craft01/plane:Cylinder_5/plane:Cylinder
+        weight: 1
+      - path: plane:locator1/plane:locator2/plane:locator3/plane:Air_craft01/plane:Cylinder_5/plane:Cylinder/plane:plane:polySurface138
+        weight: 1
+      - path: plane:locator1/plane:locator2/plane:locator3/plane:Air_craft01/plane:group3
+        weight: 1
+      - path: plane:locator1/plane:locator2/plane:locator3/plane:locator4
+        weight: 1
+      - path: plane:locator1/plane:locator2/plane:locator3/plane:locator4/plane:group6
+        weight: 1
+      - path: plane:locator5
+        weight: 1
+      - path: plane:locator5/plane:Handy02
+        weight: 1
+      - path: plane:pCylinder057
+        weight: 1
+      - path: plane:plane:polySurface139
+        weight: 1
+      - path: plane:polySurface138
+        weight: 1
+      - path: polySurface160
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

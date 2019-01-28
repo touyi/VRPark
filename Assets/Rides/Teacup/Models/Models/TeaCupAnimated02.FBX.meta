@@ -1,0 +1,329 @@
+fileFormatVersion: 2
+guid: 3259e6420d497f044a9622841d6824f1
+timeCreated: 1450700823
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Cylinder004
+    100002: Cylinder005
+    100004: Cylinder006
+    100006: Group002
+    100008: Group003
+    100010: Group004
+    100012: Group005
+    100014: Group007
+    100016: Group008
+    100018: Group009
+    100020: Group010
+    100022: Group011
+    100024: Group012
+    100026: Group013
+    100028: Group014
+    100030: Object002
+    100032: Object003
+    100034: Object004
+    100036: Object005
+    100038: Object006
+    100040: Object007
+    100042: Object008
+    100044: Object011
+    100046: Object012
+    100048: Object013
+    100050: Object014
+    100052: Object015
+    100054: Object016
+    100056: Object017
+    100058: Object018
+    100060: Object019
+    100062: Object020
+    100064: Object021
+    100066: Object022
+    100068: Object023
+    100070: Object024
+    100072: Object038
+    100074: Shape001
+    100076: //RootNode
+    400000: Cylinder004
+    400002: Cylinder005
+    400004: Cylinder006
+    400006: Group002
+    400008: Group003
+    400010: Group004
+    400012: Group005
+    400014: Group007
+    400016: Group008
+    400018: Group009
+    400020: Group010
+    400022: Group011
+    400024: Group012
+    400026: Group013
+    400028: Group014
+    400030: Object002
+    400032: Object003
+    400034: Object004
+    400036: Object005
+    400038: Object006
+    400040: Object007
+    400042: Object008
+    400044: Object011
+    400046: Object012
+    400048: Object013
+    400050: Object014
+    400052: Object015
+    400054: Object016
+    400056: Object017
+    400058: Object018
+    400060: Object019
+    400062: Object020
+    400064: Object021
+    400066: Object022
+    400068: Object023
+    400070: Object024
+    400072: Object038
+    400074: Shape001
+    400076: //RootNode
+    2300000: Cylinder004
+    2300002: Cylinder005
+    2300004: Cylinder006
+    2300006: Object002
+    2300008: Object003
+    2300010: Object004
+    2300012: Object005
+    2300014: Object006
+    2300016: Object007
+    2300018: Object008
+    2300020: Object011
+    2300022: Object012
+    2300024: Object013
+    2300026: Object014
+    2300028: Object015
+    2300030: Object016
+    2300032: Object017
+    2300034: Object018
+    2300036: Object019
+    2300038: Object020
+    2300040: Object021
+    2300042: Object022
+    2300044: Object023
+    2300046: Object024
+    2300048: Object038
+    3300000: Cylinder004
+    3300002: Cylinder005
+    3300004: Cylinder006
+    3300006: Object002
+    3300008: Object003
+    3300010: Object004
+    3300012: Object005
+    3300014: Object006
+    3300016: Object007
+    3300018: Object008
+    3300020: Object011
+    3300022: Object012
+    3300024: Object013
+    3300026: Object014
+    3300028: Object015
+    3300030: Object016
+    3300032: Object017
+    3300034: Object018
+    3300036: Object019
+    3300038: Object020
+    3300040: Object021
+    3300042: Object022
+    3300044: Object023
+    3300046: Object024
+    3300048: Object038
+    4300000: Object038
+    4300002: Object004
+    4300004: Object007
+    4300006: Object003
+    4300008: Cylinder004
+    4300010: Object017
+    4300012: Object018
+    4300014: Object023
+    4300016: Object024
+    4300018: Object013
+    4300020: Object014
+    4300022: Object002
+    4300024: Object006
+    4300026: Cylinder005
+    4300028: Object019
+    4300030: Object008
+    4300032: Object005
+    4300034: Cylinder006
+    4300036: Object020
+    4300038: Object015
+    4300040: Object016
+    4300042: Object021
+    4300044: Object022
+    4300046: Object011
+    4300048: Object012
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 4500
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Object038
+        weight: 1
+      - path: Object038/Group002
+        weight: 1
+      - path: Object038/Group002/Object004
+        weight: 1
+      - path: Object038/Group002/Object007
+        weight: 1
+      - path: Object038/Group003
+        weight: 1
+      - path: Object038/Group003/Cylinder004
+        weight: 1
+      - path: Object038/Group003/Object003
+        weight: 1
+      - path: Object038/Group004
+        weight: 1
+      - path: Object038/Group004/Object002
+        weight: 1
+      - path: Object038/Group004/Object006
+        weight: 1
+      - path: Object038/Group005
+        weight: 1
+      - path: Object038/Group005/Object005
+        weight: 1
+      - path: Object038/Group005/Object008
+        weight: 1
+      - path: Object038/Group007
+        weight: 1
+      - path: Object038/Group007/Object011
+        weight: 1
+      - path: Object038/Group007/Object012
+        weight: 1
+      - path: Object038/Group008
+        weight: 1
+      - path: Object038/Group008/Object013
+        weight: 1
+      - path: Object038/Group008/Object014
+        weight: 1
+      - path: Object038/Group009
+        weight: 1
+      - path: Object038/Group009/Object015
+        weight: 1
+      - path: Object038/Group009/Object016
+        weight: 1
+      - path: Object038/Group010
+        weight: 1
+      - path: Object038/Group010/Object017
+        weight: 1
+      - path: Object038/Group010/Object018
+        weight: 1
+      - path: Object038/Group011
+        weight: 1
+      - path: Object038/Group011/Cylinder005
+        weight: 1
+      - path: Object038/Group011/Object019
+        weight: 1
+      - path: Object038/Group012
+        weight: 1
+      - path: Object038/Group012/Cylinder006
+        weight: 1
+      - path: Object038/Group012/Object020
+        weight: 1
+      - path: Object038/Group013
+        weight: 1
+      - path: Object038/Group013/Object021
+        weight: 1
+      - path: Object038/Group013/Object022
+        weight: 1
+      - path: Object038/Group014
+        weight: 1
+      - path: Object038/Group014/Object023
+        weight: 1
+      - path: Object038/Group014/Object024
+        weight: 1
+      - path: Shape001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

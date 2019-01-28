@@ -1,0 +1,176 @@
+fileFormatVersion: 2
+guid: 76e09bf70d0e78945af3eec7921d36ab
+timeCreated: 1450790859
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Object016
+    100002: Object018
+    100004: Object065
+    100006: Object066
+    100008: Object067
+    100010: Object068
+    100012: Object069
+    100014: Object070
+    100016: Object071
+    100018: Object072
+    100020: Object073
+    100022: Object074
+    100024: Object075
+    100026: Object076
+    100028: Object077
+    100030: Object078
+    100032: Object079
+    100034: Object080
+    100036: Object081
+    100038: OctopusLowpoly
+    100040: //RootNode
+    100042: Shape001
+    400000: Object016
+    400002: Object018
+    400004: Object065
+    400006: Object066
+    400008: Object067
+    400010: Object068
+    400012: Object069
+    400014: Object070
+    400016: Object071
+    400018: Object072
+    400020: Object073
+    400022: Object074
+    400024: Object075
+    400026: Object076
+    400028: Object077
+    400030: Object078
+    400032: Object079
+    400034: Object080
+    400036: Object081
+    400038: OctopusLowpoly
+    400040: //RootNode
+    400042: Shape001
+    2300000: Object016
+    2300002: Object018
+    2300004: Object065
+    2300006: Object066
+    2300008: Object067
+    2300010: Object068
+    2300012: Object069
+    2300014: Object070
+    2300016: Object071
+    2300018: Object072
+    2300020: Object073
+    2300022: Object074
+    2300024: Object075
+    2300026: Object076
+    2300028: Object077
+    2300030: Object078
+    2300032: Object079
+    2300034: Object080
+    2300036: Object081
+    2300038: OctopusLowpoly
+    3300000: Object016
+    3300002: Object018
+    3300004: Object065
+    3300006: Object066
+    3300008: Object067
+    3300010: Object068
+    3300012: Object069
+    3300014: Object070
+    3300016: Object071
+    3300018: Object072
+    3300020: Object073
+    3300022: Object074
+    3300024: Object075
+    3300026: Object076
+    3300028: Object077
+    3300030: Object078
+    3300032: Object079
+    3300034: Object080
+    3300036: Object081
+    3300038: OctopusLowpoly
+    4300000: OctopusLowpoly
+    4300002: Object081
+    4300004: Object069
+    4300006: Object070
+    4300008: Object071
+    4300010: Object066
+    4300012: Object067
+    4300014: Object068
+    4300016: Object016
+    4300018: Object018
+    4300020: Object065
+    4300022: Object078
+    4300024: Object079
+    4300026: Object080
+    4300028: Object075
+    4300030: Object076
+    4300032: Object077
+    4300034: Object072
+    4300036: Object073
+    4300038: Object074
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
