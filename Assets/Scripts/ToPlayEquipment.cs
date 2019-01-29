@@ -7,6 +7,8 @@ public class ToPlayEquipment : MonoBehaviour
 {
 	public Animation anim;
 	public Transform sitTrans;
+	public Transform originTrans;
+	public IActor currentSitActor = null;
 	public void OnTriggerPlayEquipment(IActor actor)
 	{
 		if (actor == null)
@@ -20,6 +22,7 @@ public class ToPlayEquipment : MonoBehaviour
 			return;
 		}
 
+		this.originTrans = actor.GameObjectWrap.transform;
 		Transform actorTrans = actor.GameObjectWrap.transform;
 		if (actorTrans)
 		{
@@ -28,6 +31,19 @@ public class ToPlayEquipment : MonoBehaviour
 			actorTrans.localPosition = Vector3.zero;
 			actorTrans.rotation = this.sitTrans.rotation; 
 		}
-		
+
+		this.currentSitActor = actor;
+	}
+
+	public void OnEquipEnd()
+	{
+		// 返回原位置
+		if (this.currentSitActor == null || this.originTrans == null)
+		{
+			return;
+		}
+
+		this.currentSitActor.TPPosition(this.originTrans);
+		this.currentSitActor = null;
 	}
 }
