@@ -1,4 +1,5 @@
 using System;
+using System.Net;
 using UnityEngine;
 
 namespace DefaultNamespace
@@ -13,7 +14,7 @@ namespace DefaultNamespace
             }
         }
     }
-    public class ActionControl
+    public class ActionControl : IActionControl
     {
         private float speed = 20;
         public Transform headTrans = null;
@@ -21,6 +22,9 @@ namespace DefaultNamespace
         public Transform tartgetPoint = null;
         private bool isHaveTarget = false;
         private WeakRef<IActor> actorRef;
+        private Renderer targetRender = null;
+        private ToPlayEquipment playEquipment = null;
+        private bool isActive = true;
 
         public void Init(IActor actor)
         {
@@ -35,6 +39,7 @@ namespace DefaultNamespace
             go = GameObject.Instantiate(go);
             this.tartgetPoint = go.transform;
             actorRef = new WeakRef<IActor>(actor);
+            this.targetRender = this.tartgetPoint.GetComponent<Renderer>();
         }
         public void Update()
         {
@@ -49,35 +54,76 @@ namespace DefaultNamespace
                 this.eulerAngle.y += y * Time.deltaTime * speed;
                 this.eulerAngle.x = Mathf.Clamp(this.eulerAngle.x, -89, 89);
                 this.headTrans.localEulerAngles = this.eulerAngle;
-                UpdateViewPoint();
+                if (isActive)
+                {
+                    UpdateViewPoint();
+                }
+                    
             }
 
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) && isActive)
             {
                 IActor actor = actorRef.Ref;
                 if (actor != null)
                 {
-                    actor.TPPosition(this.tartgetPoint);
+                    if (this.playEquipment)
+                    {
+                        this.playEquipment.OnTriggerPlayEquipment(actor);
+                    }
+                    else
+                    {
+                        actor.TPPosition(this.tartgetPoint);
+                    }
+                    
                 }
             }
             
             
         }
 
+        public void DisableMove()
+        {
+            isActive = false;
+            this.tartgetPoint.gameObject.CustomActive(false);
+        }
+
+
+        public void ActiveMove()
+        {
+            isActive = true;
+        }
+        
         public void UpdateViewPoint()
         {
             // 视线
             RaycastHit hit;
             if (Physics.Raycast(this.headTrans.position, this.headTrans.forward, out hit))
             {
-                if (hit.transform.CompareTag("Walkable"))
+                isHaveTarget = true;
+                if (hit.transform.CompareTag("Walkable") || hit.transform.CompareTag("Trigger"))
                 {
-                    isHaveTarget = true;
                     this.tartgetPoint.gameObject.CustomActive(true);
                     this.tartgetPoint.position = hit.point;
-                    return;
                 }
-                    
+                if (this.targetRender)
+                {
+                    if (hit.transform.CompareTag("Trigger"))
+                    {
+                        this.targetRender.material.SetColor("_Color", Color.green);
+                        this.tartgetPoint.transform.position = hit.transform.position;
+                        var handle = hit.transform.GetComponent<ToPlayHandle>();
+                        if (handle)
+                        {
+                            this.playEquipment = handle.ToPlayEquipment;
+                        }
+                    }
+                    else
+                    {
+                        this.targetRender.material.SetColor("_Color", Color.red);
+                        this.playEquipment = null;
+                    }
+                }
+                return;   
             }
 
             isHaveTarget = false;

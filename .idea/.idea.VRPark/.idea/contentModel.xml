@@ -110,10 +110,12 @@
       <e p="Assets\Scripts" t="Include">
         <e p="ActionControl.cs" t="Include" />
         <e p="GameMain.cs" t="Include" />
+        <e p="IActionControl.cs" t="Include" />
         <e p="IActor.cs" t="Include" />
         <e p="PCActor.cs" t="Include" />
         <e p="SetTargetBottom.cs" t="Include" />
         <e p="ToPlayEquipment.cs" t="Include" />
+        <e p="ToPlayHandle.cs" t="Include" />
         <e p="WeakRef.cs" t="Include" />
       </e>
       <e p="Assets\Standard Assets" t="Include">

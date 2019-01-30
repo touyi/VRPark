@@ -19,7 +19,7 @@ namespace DefaultNamespace
         }
 
         public GameObject GameObjectWrap { get; private set; }
-        private ActionControl actionControl = null;
+        public IActionControl ActionControl { get; private set; }
         
         public void TPPosition(Vector3 worldPosition)
         {
@@ -42,15 +42,15 @@ namespace DefaultNamespace
 
         public void Init()
         {
-            this.actionControl = new ActionControl();
-            this.actionControl.Init(this);
+            this.ActionControl = new ActionControl();
+            this.ActionControl.Init(this);
         }
 
         public void Update()
         {
-            if (this.actionControl != null)
+            if (this.ActionControl != null)
             {
-                this.actionControl.Update();
+                this.ActionControl.Update();
             }
             
         }

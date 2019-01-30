@@ -55,6 +55,7 @@
 				// sample the texture
 				fixed4 col = _Color;
 				col.a = pow(len / max(_Rate, 0.1), _Range);
+				col.a = saturate(col.a);
 				return col;
 			}
 			ENDCG
