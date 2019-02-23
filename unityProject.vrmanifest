@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.apitest.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "E:\\ql\\wbbs\\VRPark\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "APITest [Testing]"
+        }
+      }
+    }
+  ]
+}

@@ -1,6 +1,8 @@
+#define VRMODE
 using System;
 using System.Net;
 using UnityEngine;
+using Valve.VR;
 
 namespace DefaultNamespace
 {
@@ -45,6 +47,7 @@ namespace DefaultNamespace
         {
             if (headTrans)
             {
+#if !VRMODE
                 // 方向
                 float x = -Input.GetAxis("Mouse Y");
                 float y = Input.GetAxis("Mouse X");
@@ -54,14 +57,15 @@ namespace DefaultNamespace
                 this.eulerAngle.y += y * Time.deltaTime * speed;
                 this.eulerAngle.x = Mathf.Clamp(this.eulerAngle.x, -89, 89);
                 this.headTrans.localEulerAngles = this.eulerAngle;
+#endif
                 if (isActive)
                 {
                     UpdateViewPoint();
                 }
                     
             }
-
-            if (Input.GetMouseButtonDown(0) && isActive)
+            
+            if ((Input.GetMouseButtonDown(0) || SteamVR_Actions._default.ok.GetStateDown(SteamVR_Input_Sources.Any)) && isActive)
             {
                 IActor actor = actorRef.Ref;
                 if (actor != null)

@@ -1,3 +1,4 @@
+#define VRMODE
 using UnityEngine;
 
 namespace DefaultNamespace
@@ -6,6 +7,18 @@ namespace DefaultNamespace
     {
         public static IActor CreateActor()
         {
+#if VRMODE
+            GameObject actorGo = Resources.Load<GameObject>("Prefabs/CameraRig");
+            actorGo = GameObject.Instantiate(actorGo);
+            if (actorGo == null)
+            {
+                Debug.Log("actorGo is null");
+                return null;
+            }
+            PCActor actor = new PCActor();
+            actor.GameObjectWrap = actorGo;
+            return actor;
+#else
             GameObject actorGo = Resources.Load<GameObject>("Prefabs/Actor");
             actorGo = GameObject.Instantiate(actorGo);
             if (actorGo == null)
@@ -16,6 +29,8 @@ namespace DefaultNamespace
             PCActor actor = new PCActor();
             actor.GameObjectWrap = actorGo;
             return actor;
+#endif
+
         }
 
         public GameObject GameObjectWrap { get; private set; }
